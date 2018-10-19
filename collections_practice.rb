@@ -52,4 +52,5 @@ end
 def find_a(array)
   array.find do |i|
     array[i] = "a"
+  end
 end
