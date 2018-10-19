@@ -64,5 +64,6 @@ def add_s(array)
       nil
     else
       i << "s"
+    end
   end
 end
