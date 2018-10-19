@@ -51,6 +51,6 @@ end
 
 def find_a(array)
   array.detect do |i|
-    return array if array[i] = "a"
+    if i[1] = "a"
   end
 end
