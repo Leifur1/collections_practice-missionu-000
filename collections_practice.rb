@@ -60,6 +60,8 @@ end
 
 def add_s(array)
   array.each do |i|
-    i << "s"
+    if i[2]
+    else
+      i << "s"
   end
 end
