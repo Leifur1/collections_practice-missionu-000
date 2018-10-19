@@ -61,6 +61,7 @@ end
 def add_s(array)
   array.each do |i|
     if i[2]
+      nil
     else
       i << "s"
   end
