@@ -51,3 +51,4 @@ end
 
 def find_a(array)
   array.find(/[a].*/)
+end
