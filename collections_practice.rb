@@ -50,7 +50,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find do |i|
+  array.find_all do |i|
     array[i] = "a"
   end
 end
