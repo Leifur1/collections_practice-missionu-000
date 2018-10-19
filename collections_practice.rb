@@ -64,11 +64,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |i|
-    if i[2]
-      i[2] = i[2]
+  array.collect do |i|
+    if i[1] == i
+      i
     else
-      i << "s"
+      i + "s"
     end
   end
 end
