@@ -50,5 +50,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  return array.find(/[a].*/)
+  array.find(/[a].*/) do |i|
+    return i
 end
